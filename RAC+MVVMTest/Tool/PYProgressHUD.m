@@ -20,4 +20,14 @@
     [hud show:YES];
 }
 
++(void)hideHud
+{
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    MBProgressHUD *hud = [self HUDForView:window];
+    if (hud != nil) {
+        hud.removeFromSuperViewOnHide = YES;
+        [hud hide:YES];
+    }
+}
+
 @end

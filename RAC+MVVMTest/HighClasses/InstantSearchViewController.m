@@ -7,9 +7,6 @@
 //
 
 #import "InstantSearchViewController.h"
-#import <Masonry/Masonry.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
-
 
 @interface InstantSearchViewController ()<UITableViewDataSource,UITableViewDelegate>
 {

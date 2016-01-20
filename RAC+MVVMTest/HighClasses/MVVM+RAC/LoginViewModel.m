@@ -7,7 +7,6 @@
 //
 
 #import "LoginViewModel.h"
-#import "PYProgressHUD.h"
 
 @implementation LoginViewModel
 - (Account *)account
@@ -53,6 +52,15 @@
         }];
     }];
     
+    // 监听登录产生的数据
+    [_LoginCommand.executionSignals.switchToLatest subscribeNext:^(id x) {
+        
+        if ([x isEqualToString:@"登录成功"]) {
+            NSLog(@"登录成功");
+        }
+    }];
+
+    
     // 监听登录状态，跳过第一个信号
     [[_LoginCommand.executing skip:1] subscribeNext:^(id x) {
         
@@ -60,14 +68,15 @@
             
             // 正在登录ing...
             // 用蒙版提示
-            [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];
+            [PYProgressHUD showMessage:@"登录中"];
+//            [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];
             
         }else
         {
             
             // 登录成功
             // 隐藏蒙版
-            [MBProgressHUD hideHUDForView:[UIApplication sharedApplication].keyWindow animated:YES];
+            [PYProgressHUD hideHud];
 //            NSLog( @"登录成功,隐藏蒙板");
         }
     }];

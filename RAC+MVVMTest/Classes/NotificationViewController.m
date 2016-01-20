@@ -7,8 +7,6 @@
 //
 
 #import "NotificationViewController.h"
-#import <Masonry/Masonry.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @interface NotificationViewController ()
 

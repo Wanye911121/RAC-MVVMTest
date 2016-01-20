@@ -8,8 +8,6 @@
 
 #import "ListTableViewController.h"
 #import "ListViewModel.h"
-#import <Masonry/Masonry.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
 
 @interface ListTableViewController ()
 

@@ -12,4 +12,5 @@
 
 +(void)showMessage:(NSString *)message;
 
++(void)hideHud;
 @end

@@ -7,10 +7,8 @@
 //
 
 #import "GestureViewController.h"
-#import <Masonry/Masonry.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
 
-       static CGFloat percent  = 1;
+static CGFloat percent  = 1;
 
 @interface GestureViewController ()
 

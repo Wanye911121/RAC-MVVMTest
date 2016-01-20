@@ -7,8 +7,6 @@
 //
 
 #import "ListViewModel.h"
-#import <AFNetworking/AFNetworking.h>
-#import <MJExtension/MJExtension.h>
 #import "Book.h"
 
 @implementation ListViewModel
@@ -30,16 +28,20 @@
         
         RACSignal *requestSignal = [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
             
+            [PYProgressHUD showMessage:@"加载列表中"];
+            
             NSMutableDictionary *parameters = [NSMutableDictionary dictionary];
             parameters[@"q"] = @"基础";
             
             AFHTTPSessionManager *manager = [[AFHTTPSessionManager alloc] init];
             [manager GET:@"https://api.douban.com/v2/book/search" parameters:parameters success:^(NSURLSessionDataTask * _Nonnull task, id  _Nonnull responseObject) {
+                [PYProgressHUD hideHud];
                 [subscriber sendNext:responseObject];
                 [subscriber sendCompleted];
+                
             } failure:^(NSURLSessionDataTask * _Nonnull task, NSError * _Nonnull error) {
                 [subscriber sendError:error];
-                
+                [PYProgressHUD hideHud];
             }];
             
             return nil;

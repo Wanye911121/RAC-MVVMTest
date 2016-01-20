@@ -26,8 +26,6 @@
 
 #import "LoginViewController.h"
 #import "LoginViewModel.h"
-#import <Masonry/Masonry.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
 #import "ListTableViewController.h"
 
 @interface LoginViewController ()
@@ -113,17 +111,11 @@
         // 执行登录事件
         [self.loginViewModel.LoginCommand execute:nil];
         
-        // 监听登录产生的数据
-        [self.loginViewModel.LoginCommand.executionSignals.switchToLatest subscribeNext:^(id x) {
-            
-            if ([x isEqualToString:@"登录成功"]) {
-                NSLog(@"登录成功");
-                ListTableViewController *listVC = [[ListTableViewController alloc] init];
-                [self.navigationController pushViewController:listVC animated:YES];
-            }else {
-                NSLog(@"登录失败");
-            }
-        }];
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            ListTableViewController *listVC = [[ListTableViewController alloc] init];
+            [self.navigationController pushViewController:listVC animated:YES];
+        });
+        
         
     }];
 }

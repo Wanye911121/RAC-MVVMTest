@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC+MVVMTest/Classes/NotificationViewController.m"
-            timestampString = "474880815.570465"
+            timestampString = "474972129.445886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
             <Locations>
@@ -26,11 +26,11 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/Classes/NotificationViewController.m"
-                  timestampString = "474948459.014362"
+                  timestampString = "474972492.582349"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
                   offsetFromSymbolStart = "576">
                </Location>
                <Location
@@ -41,11 +41,11 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/Classes/NotificationViewController.m"
-                  timestampString = "474948459.014721"
+                  timestampString = "474972492.582677"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "42"
-                  endingLineNumber = "42"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
                   offsetFromSymbolStart = "43">
                </Location>
             </Locations>
@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC+MVVMTest/Classes/NotificationViewController.m"
-            timestampString = "474880815.570465"
+            timestampString = "474972129.445886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "44"
-            endingLineNumber = "44"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC+MVVMTest/Classes/GestureViewController.m"
-            timestampString = "474882138.22352"
+            timestampString = "474972129.445886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
             <Locations>
@@ -90,11 +90,11 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/Classes/GestureViewController.m"
-                  timestampString = "474948459.016985"
+                  timestampString = "474972492.627298"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
                   offsetFromSymbolStart = "90">
                </Location>
                <Location
@@ -105,11 +105,11 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/Classes/GestureViewController.m"
-                  timestampString = "474948459.017279"
+                  timestampString = "474972492.628021"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
                   offsetFromSymbolStart = "27">
                </Location>
             </Locations>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC+MVVMTest/HighClasses/InstantSearchViewController.m"
-            timestampString = "474885450.833917"
+            timestampString = "474972129.445886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC+MVVMTest/HighClasses/InstantSearchViewController.m"
-            timestampString = "474892425.302564"
+            timestampString = "474972129.445886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "69"
-            endingLineNumber = "69"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC+MVVMTest/HighClasses/InstantSearchViewController.m"
-            timestampString = "474892425.302564"
+            timestampString = "474972129.445886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "62"
-            endingLineNumber = "62"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RAC+MVVMTest/HighClasses/InstantSearchViewController.m"
-            timestampString = "474892425.302564"
+            timestampString = "474972129.445886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
@@ -201,44 +201,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/ListTableViewController.m"
-            timestampString = "474946633.175836"
+            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
+            timestampString = "474972129.445886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/ListViewModel.m"
-            timestampString = "474948247.038701"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "-tableView:cellForRowAtIndexPath:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/ListViewModel.m"
-            timestampString = "474948247.038701"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
             landmarkName = "-initialBind"
             landmarkType = "5">
          </BreakpointContent>
@@ -249,13 +217,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/ListTableViewController.m"
-            timestampString = "474946633.175836"
+            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
+            timestampString = "474972129.445886"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "-initialBind"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -265,44 +233,44 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/ListTableViewController.m"
-            timestampString = "474946633.175836"
+            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
+            timestampString = "474972096.560788"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "-viewDidLoad"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "-initialBind"
             landmarkType = "5">
             <Locations>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "-[ListTableViewController viewDidLoad]"
+                  symbolName = "-[LoginViewModel initialBind]"
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/ListTableViewController.m"
-                  timestampString = "474948459.027389"
+                  urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
+                  timestampString = "474972492.644205"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "404">
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "936">
                </Location>
                <Location
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "__38-[ListTableViewController viewDidLoad]_block_invoke"
+                  symbolName = "__29-[LoginViewModel initialBind]_block_invoke49"
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/ListTableViewController.m"
-                  timestampString = "474948459.027656"
+                  urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
+                  timestampString = "474972492.644666"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "36">
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "43">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -313,12 +281,60 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/ListViewModel.m"
-            timestampString = "474948247.038701"
+            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
+            timestampString = "474972151.007085"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "-initialBind"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[LoginViewModel initialBind]"
+                  moduleName = "RAC+MVVMTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
+                  timestampString = "474972492.646784"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "38"
+                  endingLineNumber = "38"
+                  offsetFromSymbolStart = "858">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__29-[LoginViewModel initialBind]_block_invoke_2"
+                  moduleName = "RAC+MVVMTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
+                  timestampString = "474972492.647629"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
+            timestampString = "474972151.980114"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
             landmarkName = "-initialBind"
             landmarkType = "5">
          </BreakpointContent>
@@ -329,29 +345,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/ListViewModel.m"
-            timestampString = "474948247.038701"
+            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
+            timestampString = "474972226.330364"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
             landmarkName = "-initialBind"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewController.m"
-            timestampString = "474948458.952513"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
-            landmarkName = "-bindModel"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

@@ -7,8 +7,7 @@
 //
 
 #import "DelegateViewController.h"
-#import <Masonry/Masonry.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
+
 @interface DelegateViewController ()
 
 @end
@@ -21,7 +20,7 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     
-    UIAlertView * alertView = [[UIAlertView alloc]initWithTitle:@"RAC" message:@"ReactiveCocoa" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Ensure", nil];
+    UIAlertView * alertView = [[UIAlertView alloc]initWithTitle:@"警告" message:@"是否确认登录?" delegate:self cancelButtonTitle:@"取消" otherButtonTitles:@"确定", nil];
     [[self rac_signalForSelector:@selector(alertView:clickedButtonAtIndex:) fromProtocol:@protocol(UIAlertViewDelegate)] subscribeNext:^(RACTuple * tuple) {
         NSLog(@"%@",tuple);
     }];
