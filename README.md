@@ -24,4 +24,4 @@ ViewModel不要引用UIKit。
 
 关于MVVM+RAC的结合
 ReactiveCocoa所扮演的角色:进行ViewModel连接"粘合"工作.
-![image](https://github.com/MikeZhangpy/RAC+MVVMTest/blob/master/simple.png) 
+![image](https://github.com/MikeZhangpy/RAC-MVVMTest/blob/master/simple.png) 
