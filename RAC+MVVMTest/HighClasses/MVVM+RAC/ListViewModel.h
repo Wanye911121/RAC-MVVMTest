@@ -7,10 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UIKit/UIKit.h>
 #import <ReactiveCocoa/ReactiveCocoa.h>
 
-@interface ListViewModel : NSObject <UITableViewDataSource>
+@interface ListViewModel : NSObject
 @property (nonatomic, strong, readonly) RACCommand *listRequestCommand;
 @property (nonatomic, strong) NSArray *models;
 @end

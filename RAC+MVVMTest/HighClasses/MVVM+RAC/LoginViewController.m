@@ -55,6 +55,7 @@
     
     UITextField *userTextField = [UITextField new];
     userTextField.backgroundColor = [UIColor lightGrayColor];
+    userTextField.placeholder = @"用户名";
     [self.view addSubview:userTextField];
     [userTextField mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self.view);
@@ -66,6 +67,7 @@
     
     UITextField *pwdTextField = [UITextField new];
     pwdTextField.backgroundColor = [UIColor lightGrayColor];
+    pwdTextField.placeholder = @"密码";
     [self.view addSubview:pwdTextField];
     [pwdTextField mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(userTextField.mas_bottom).offset(10);
