@@ -17,6 +17,7 @@ PODS:
   - Masonry (0.6.4)
   - MBProgressHUD (0.9.2)
   - MJExtension (3.0.10)
+  - pop (1.0.8)
   - ReactiveCocoa (4.0.4-alpha-4):
     - ReactiveCocoa/UI (= 4.0.4-alpha-4)
     - Result (~> 1.0)
@@ -35,6 +36,7 @@ DEPENDENCIES:
   - Masonry
   - MBProgressHUD
   - MJExtension
+  - pop
   - ReactiveCocoa (~> 4.0.4-alpha-1)
 
 SPEC CHECKSUMS:
@@ -42,6 +44,7 @@ SPEC CHECKSUMS:
   Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
   MJExtension: d86aacb740c87519d20e3cca55b6fa4be6cc7548
+  pop: bb773ae2c791ca2629de13b347e7a8b450fa6a57
   ReactiveCocoa: e459ea92099447802df20c4735e31e8139b06094
   Result: caef80340451e1f07492fa1e89117f83613bce24
 

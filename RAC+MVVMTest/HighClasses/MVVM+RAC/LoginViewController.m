@@ -27,6 +27,8 @@
 #import "LoginViewController.h"
 #import "LoginViewModel.h"
 #import "ListTableViewController.h"
+#import "FlatButton.h"
+#import "UIColor+Theme.h"
 
 @interface LoginViewController ()
 @property (nonatomic, strong) LoginViewModel *loginViewModel;
@@ -53,40 +55,68 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    UIImageView *userleftImageView = [UIImageView new];
+    userleftImageView.image = [UIImage imageNamed:@"icon_user"];
+    userleftImageView.frame = CGRectMake(5, 0, 18, 18);
+    
     UITextField *userTextField = [UITextField new];
     userTextField.backgroundColor = [UIColor lightGrayColor];
-    userTextField.placeholder = @"用户名";
+    userTextField.layer.borderWidth = 1;
+    
+    
+    NSDictionary *attributes = @{NSFontAttributeName: [UIFont systemFontOfSize:16.0],
+                                 NSForegroundColorAttributeName: [UIColor whiteColor]};
+    
+    NSAttributedString * attributedStr = [[NSAttributedString alloc] initWithString:@"用户名" attributes:attributes];
+    
+    userTextField.attributedPlaceholder = attributedStr;
+    userTextField.leftViewMode = UITextFieldViewModeAlways;
+    userTextField.leftView = userleftImageView;
+    
     [self.view addSubview:userTextField];
     [userTextField mas_makeConstraints:^(MASConstraintMaker *make) {
         make.centerX.equalTo(self.view);
         make.centerY.equalTo(self.view);
-        make.width.equalTo(@180);
+        make.left.equalTo(@20);
         make.height.equalTo(@44);
     }];
     self.userNameTF = userTextField;
     
+    UIImageView *pwdleftImageView = [UIImageView new];
+    pwdleftImageView.image = [UIImage imageNamed:@"icon_password"];
+    pwdleftImageView.frame = CGRectMake(0, 0, 18, 18);
+    
+    NSDictionary *pwdAttributes = @{NSFontAttributeName: [UIFont systemFontOfSize:16.0],
+                                 NSForegroundColorAttributeName: [UIColor whiteColor]};
+    
+    NSAttributedString * pwdAttributedStr = [[NSAttributedString alloc] initWithString:@"密码" attributes:pwdAttributes];
+    
     UITextField *pwdTextField = [UITextField new];
     pwdTextField.backgroundColor = [UIColor lightGrayColor];
-    pwdTextField.placeholder = @"密码";
+    pwdTextField.attributedPlaceholder = pwdAttributedStr;
+    pwdTextField.layer.borderWidth = 1;
+    pwdTextField.leftViewMode = UITextFieldViewModeAlways;
+    pwdTextField.leftView = pwdleftImageView;
+
     [self.view addSubview:pwdTextField];
     [pwdTextField mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(userTextField.mas_bottom).offset(10);
         make.centerX.mas_equalTo(self.view);
-        make.width.equalTo(@180);
+        make.left.equalTo(@20);
         make.height.equalTo(@44);
     }];
     
     self.pwdTF = pwdTextField;
     
-    UIButton *btn = [UIButton new];
+    FlatButton *btn = [FlatButton button];
     [btn setTitle:@"登录" forState:UIControlStateNormal];
-    [btn setTitleColor:[UIColor grayColor] forState:UIControlStateDisabled];
-    btn.backgroundColor = [UIColor redColor];
+    btn.backgroundColor = [UIColor customBlueColor];
     [self.view addSubview:btn];
     [btn mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.mas_equalTo(pwdTextField.mas_bottom).offset(10);
         make.leading.mas_equalTo(pwdTextField.mas_leading);
-        make.size.mas_equalTo(CGSizeMake(180, 40));
+        make.centerX.mas_equalTo(self.view);
+        make.height.equalTo(@40);
     }];
     self.loginBtn = btn;
     

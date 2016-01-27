@@ -17,38 +17,6 @@
             endingLineNumber = "40"
             landmarkName = "-viewDidLoad"
             landmarkType = "5">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "-[NotificationViewController viewDidLoad]"
-                  moduleName = "RAC+MVVMTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/Classes/NotificationViewController.m"
-                  timestampString = "474972492.582349"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "576">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "__41-[NotificationViewController viewDidLoad]_block_invoke_2"
-                  moduleName = "RAC+MVVMTest"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/Classes/NotificationViewController.m"
-                  timestampString = "474972492.582677"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "40"
-                  endingLineNumber = "40"
-                  offsetFromSymbolStart = "43">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -90,7 +58,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/Classes/GestureViewController.m"
-                  timestampString = "474972492.627298"
+                  timestampString = "475558295.111012"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "38"
@@ -105,7 +73,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/Classes/GestureViewController.m"
-                  timestampString = "474972492.628021"
+                  timestampString = "475558295.114536"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "38"
@@ -250,7 +218,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
-                  timestampString = "474972492.644205"
+                  timestampString = "475558295.12508"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "56"
@@ -265,7 +233,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
-                  timestampString = "474972492.644666"
+                  timestampString = "475558295.12579"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "56"
@@ -298,7 +266,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
-                  timestampString = "474972492.646784"
+                  timestampString = "475558295.128595"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "38"
@@ -313,7 +281,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
-                  timestampString = "474972492.647629"
+                  timestampString = "475558295.129078"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "40"

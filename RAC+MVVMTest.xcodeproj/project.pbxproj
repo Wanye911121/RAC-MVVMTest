@@ -30,6 +30,8 @@
 		070171E21C4E22EE006A7961 /* DelegateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070171E11C4E22EE006A7961 /* DelegateViewController.m */; };
 		070171E61C4E24E5006A7961 /* HighHomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070171E51C4E24E5006A7961 /* HighHomeTableViewController.m */; };
 		070171E91C4E25B2006A7961 /* InstantSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 070171E81C4E25B2006A7961 /* InstantSearchViewController.m */; };
+		07CDA4A81C586AFF009AA639 /* FlatButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CDA4A71C586AFF009AA639 /* FlatButton.m */; };
+		07CDA4AC1C586C21009AA639 /* UIColor+Theme.m in Sources */ = {isa = PBXBuildFile; fileRef = 07CDA4AB1C586C21009AA639 /* UIColor+Theme.m */; };
 		A79A5D903969F17ED30D4C15 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE14AD8DFD0707D04EB3FEC5 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +100,10 @@
 		070171E71C4E25B2006A7961 /* InstantSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstantSearchViewController.h; sourceTree = "<group>"; };
 		070171E81C4E25B2006A7961 /* InstantSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstantSearchViewController.m; sourceTree = "<group>"; };
 		073E2A811C4F7D42009698C3 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		07CDA4A61C586AFF009AA639 /* FlatButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlatButton.h; sourceTree = "<group>"; };
+		07CDA4A71C586AFF009AA639 /* FlatButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlatButton.m; sourceTree = "<group>"; };
+		07CDA4AA1C586C21009AA639 /* UIColor+Theme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Theme.h"; sourceTree = "<group>"; };
+		07CDA4AB1C586C21009AA639 /* UIColor+Theme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Theme.m"; sourceTree = "<group>"; };
 		82E665E5E8FA073C07796246 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		8834B11920C49D2CDEAD9061 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		AE14AD8DFD0707D04EB3FEC5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -151,6 +157,8 @@
 		070064A01C4E55AC00E5F4D0 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				07CDA4A61C586AFF009AA639 /* FlatButton.h */,
+				07CDA4A71C586AFF009AA639 /* FlatButton.m */,
 				070064A11C4E55C200E5F4D0 /* PYProgressHUD.h */,
 				070064A21C4E55C200E5F4D0 /* PYProgressHUD.m */,
 			);
@@ -182,6 +190,7 @@
 		070171991C4E0AA4006A7961 /* RAC+MVVMTest */ = {
 			isa = PBXGroup;
 			children = (
+				07CDA4A91C586C0C009AA639 /* Category */,
 				070064A01C4E55AC00E5F4D0 /* Tool */,
 				070171E31C4E24C2006A7961 /* HighClasses */,
 				070171D01C4E0DA2006A7961 /* Classes */,
@@ -254,6 +263,15 @@
 				070171E81C4E25B2006A7961 /* InstantSearchViewController.m */,
 			);
 			path = HighClasses;
+			sourceTree = "<group>";
+		};
+		07CDA4A91C586C0C009AA639 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				07CDA4AA1C586C21009AA639 /* UIColor+Theme.h */,
+				07CDA4AB1C586C21009AA639 /* UIColor+Theme.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		4BA8D87A3DDAD11ADD48346C /* Pods */ = {
@@ -455,8 +473,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				070171DF1C4E0ECB006A7961 /* TimerViewController.m in Sources */,
+				07CDA4AC1C586C21009AA639 /* UIColor+Theme.m in Sources */,
 				070171DC1C4E0E89006A7961 /* NotificationViewController.m in Sources */,
 				0700649E1C4E546000E5F4D0 /* LoginViewController.m in Sources */,
+				07CDA4A81C586AFF009AA639 /* FlatButton.m in Sources */,
 				070171E61C4E24E5006A7961 /* HighHomeTableViewController.m in Sources */,
 				0700649F1C4E546000E5F4D0 /* LoginViewModel.m in Sources */,
 				070171D91C4E0E37006A7961 /* GestureViewController.m in Sources */,
