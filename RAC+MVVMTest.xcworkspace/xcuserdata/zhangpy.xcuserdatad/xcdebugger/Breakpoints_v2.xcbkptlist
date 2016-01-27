@@ -58,7 +58,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/Classes/GestureViewController.m"
-                  timestampString = "475558295.111012"
+                  timestampString = "475568400.516195"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "38"
@@ -73,7 +73,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/Classes/GestureViewController.m"
-                  timestampString = "475558295.114536"
+                  timestampString = "475568400.517164"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "38"
@@ -81,70 +81,6 @@
                   offsetFromSymbolStart = "27">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/InstantSearchViewController.m"
-            timestampString = "474972129.445886"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/InstantSearchViewController.m"
-            timestampString = "474972129.445886"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "66"
-            endingLineNumber = "66"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/InstantSearchViewController.m"
-            timestampString = "474972129.445886"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RAC+MVVMTest/HighClasses/InstantSearchViewController.m"
-            timestampString = "474972129.445886"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
-            landmarkName = "-viewDidLoad"
-            landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -218,7 +154,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
-                  timestampString = "475558295.12508"
+                  timestampString = "475568400.633235"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "56"
@@ -233,7 +169,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
-                  timestampString = "475558295.12579"
+                  timestampString = "475568400.63784"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "56"
@@ -266,7 +202,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
-                  timestampString = "475558295.128595"
+                  timestampString = "475568400.640223"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "38"
@@ -281,7 +217,7 @@
                   moduleName = "RAC+MVVMTest"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/zhangpy/Desktop/RAC+MVVMTest/RAC+MVVMTest/HighClasses/MVVM+RAC/LoginViewModel.m"
-                  timestampString = "475558295.129078"
+                  timestampString = "475568400.640696"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "40"
