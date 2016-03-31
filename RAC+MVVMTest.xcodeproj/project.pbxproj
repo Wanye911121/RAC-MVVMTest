@@ -633,10 +633,12 @@
 			baseConfigurationReference = 8834B11920C49D2CDEAD9061 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 鹏宇 张 (VT6L829495)";
 				INFOPLIST_FILE = "RAC+MVVMTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.berchina.RAC-MVVMTest";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rosevision.mstore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "76bf706b-b07e-4bc1-8b06-1482a5f7f2b8";
 			};
 			name = Debug;
 		};
@@ -645,10 +647,13 @@
 			baseConfigurationReference = 82E665E5E8FA073C07796246 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: 鹏宇 张 (VT6L829495)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: 鹏宇 张 (VT6L829495)";
 				INFOPLIST_FILE = "RAC+MVVMTest/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.berchina.RAC-MVVMTest";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rosevision.mstore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "76bf706b-b07e-4bc1-8b06-1482a5f7f2b8";
 			};
 			name = Release;
 		};
