@@ -35,9 +35,11 @@ static CGFloat percent  = 1;
     [[tap rac_gestureSignal] subscribeNext:^(UITapGestureRecognizer * tap) {
         NSLog(@"手势事件触发后的处理%@",tap);
 
-        [UIView animateWithDuration:0.1 animations:^{
+        [UIView animateWithDuration:0.5 animations:^{
             percent = percent - 0.1;
             tapView.transform = CGAffineTransformMakeScale(percent, percent);
+        } completion:^(BOOL finished) {
+            tapView.transform = CGAffineTransformIdentity;
         }];
     }];
     [tapView addGestureRecognizer:tap];

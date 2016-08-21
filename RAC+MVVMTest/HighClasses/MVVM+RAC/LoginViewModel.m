@@ -39,7 +39,7 @@
         
         NSLog(@"点击了登录");
         return [RACSignal createSignal:^RACDisposable *(id<RACSubscriber> subscriber) {
-            // 模仿网络延迟
+            // 模仿网络延迟,真实场景是网络请求
             dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
                 
                 [subscriber sendNext:@"登录成功"];
@@ -52,14 +52,15 @@
         }];
     }];
     
-    // 监听登录产生的数据
-    [_LoginCommand.executionSignals.switchToLatest subscribeNext:^(id x) {
-        
-        if ([x isEqualToString:@"登录成功"]) {
-            NSLog(@"登录成功");
-        }
-    }];
-
+//    // 监听事件有没有完成
+//    [command.executing subscribeNext:^(id x) {
+//        if ([x boolValue] == YES) { // 正在执行
+//            NSLog(@"当前正在执行%@", x);
+//        }else {
+//            // 执行完成/没有执行
+//            NSLog(@"执行完成/没有执行");
+//        }
+//    }];
     
     // 监听登录状态，跳过第一个信号
     [[_LoginCommand.executing skip:1] subscribeNext:^(id x) {
@@ -67,7 +68,6 @@
         if ([x isEqualToNumber:@(YES)]) {
             
             // 正在登录ing...
-            // 用蒙版提示
             [PYProgressHUD showMessage:@"登录中"];
 //            [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];
             
@@ -77,7 +77,6 @@
             // 登录成功
             // 隐藏蒙版
             [PYProgressHUD hideHud];
-//            NSLog( @"登录成功,隐藏蒙板");
         }
     }];
 }

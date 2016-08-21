@@ -49,7 +49,6 @@
     return _loginViewModel;
 }
 
-
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -60,7 +59,7 @@
     userleftImageView.frame = CGRectMake(5, 0, 18, 18);
     
     UITextField *userTextField = [UITextField new];
-    userTextField.backgroundColor = [UIColor lightGrayColor];
+    userTextField.backgroundColor = [UIColor blackColor];
     userTextField.layer.borderWidth = 1;
     
     
@@ -72,6 +71,7 @@
     userTextField.attributedPlaceholder = attributedStr;
     userTextField.leftViewMode = UITextFieldViewModeAlways;
     userTextField.leftView = userleftImageView;
+    userTextField.textColor = [UIColor whiteColor];
     
     [self.view addSubview:userTextField];
     [userTextField mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -92,8 +92,9 @@
     NSAttributedString * pwdAttributedStr = [[NSAttributedString alloc] initWithString:@"密码" attributes:pwdAttributes];
     
     UITextField *pwdTextField = [UITextField new];
-    pwdTextField.backgroundColor = [UIColor lightGrayColor];
+    pwdTextField.backgroundColor = [UIColor blackColor];
     pwdTextField.attributedPlaceholder = pwdAttributedStr;
+    pwdTextField.textColor = [UIColor whiteColor];
     pwdTextField.layer.borderWidth = 1;
     pwdTextField.leftViewMode = UITextFieldViewModeAlways;
     pwdTextField.leftView = pwdleftImageView;
@@ -140,16 +141,29 @@
     // 监听登录按钮点击
     [[_loginBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
         
+        
+        //// executionSignals：信号源，信号中信号，signalofsignals:信号，发送数据就是信号
+        // switchToLatest获取最新发送的信号，只能用于信号中信号。
+        // 监听登录产生的数据
+        [[self.loginViewModel.LoginCommand.executionSignals.switchToLatest distinctUntilChanged] subscribeNext:^(id x) {
+            
+            if ([x isEqualToString:@"登录成功"]) {
+                NSLog(@"登录成功");
+                dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                    ListTableViewController *listVC = [[ListTableViewController alloc] init];
+                    [self.navigationController pushViewController:listVC animated:YES];
+                });
+            }
+        }];
+        
         // 执行登录事件
         [self.loginViewModel.LoginCommand execute:nil];
-        
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            ListTableViewController *listVC = [[ListTableViewController alloc] init];
-            [self.navigationController pushViewController:listVC animated:YES];
-        });
-        
-        
+
     }];
+}
+
+- (void)viewDidDisappear:(BOOL)animated {
+    [super viewDidDisappear: animated];
 }
 
 - (void)didReceiveMemoryWarning {

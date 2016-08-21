@@ -25,7 +25,15 @@
         NSLog(@"%@",tuple);
     }];
     [alertView show];
-    
+//    
+//    
+//    UIScrollView *scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 20, self.view.bounds.size.width, 300)];
+//    scrollView.backgroundColor = [UIColor redColor];
+//    scrollView.contentSize = CGSizeMake(self.view.bounds.size.width, 1000);
+//    [self.view addSubview:scrollView];
+//    [[self rac_signalForSelector:@selector(scrollViewDidScroll:) fromProtocol:@protocol(UIScrollViewDelegate)] subscribeNext:^(id x) {
+//        NSLog(@"-----%@",x);
+//    }];
     
     
 //    //	更简单的方式：
