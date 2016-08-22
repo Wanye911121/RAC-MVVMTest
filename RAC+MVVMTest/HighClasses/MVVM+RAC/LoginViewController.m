@@ -139,14 +139,14 @@
     RAC(self.loginBtn,enabled) = self.loginViewModel.enableLoginSignal;
     
     // 监听登录按钮点击
+    
     [[_loginBtn rac_signalForControlEvents:UIControlEventTouchUpInside] subscribeNext:^(id x) {
         
-        
-        //// executionSignals：信号源，信号中信号，signalofsignals:信号，发送数据就是信号
-        // switchToLatest获取最新发送的信号，只能用于信号中信号。
-        // 监听登录产生的数据
-        [[self.loginViewModel.LoginCommand.executionSignals.switchToLatest distinctUntilChanged] subscribeNext:^(id x) {
-            
+        // 执行登录事件
+        @weakify(self)
+       RACSignal *signal = [self.loginViewModel.LoginCommand execute:nil];
+        [signal subscribeNext:^(id x) {
+            @strongify(self)
             if ([x isEqualToString:@"登录成功"]) {
                 NSLog(@"登录成功");
                 dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -155,10 +155,6 @@
                 });
             }
         }];
-        
-        // 执行登录事件
-        [self.loginViewModel.LoginCommand execute:nil];
-
     }];
 }
 

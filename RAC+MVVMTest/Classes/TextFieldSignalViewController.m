@@ -4,7 +4,7 @@
 //
 //  Created by ZpyZp on 16/1/19.
 //  Copyright © 2016年 zpy. All rights reserved.
-//
+//  target-action
 
 #import "TextFieldSignalViewController.h"
 
@@ -29,23 +29,35 @@
         make.height.equalTo(@44);
     }];
     
-    [[[[[textField.rac_textSignal
-        distinctUntilChanged]
-        //这次和上次信号不一样，才会发送,
-        //注：用于刷新页面，当数据不一样才刷新
-        delay:1]
-        //延迟1秒接收到信号
-        ignore:@"1"]
-        //忽略“1”的信号发送
-        filter:^BOOL(NSString* text) {
-        //过滤事件，只允许长度大于2发信号
-        //每次信号发出，会先执行过滤条件判断.
-        return text.length > 2;
-    }] subscribeNext:^(id x) {
-        //接收订阅的信号
-        //Tip: id x -> NSString * text
-        NSLog(@"当前字符串:%@",x);
-    }] ;
+    
+//    [textField addTarget:self action:@selector(textChanged:) forControlEvents:UIControlEventEditingChanged];
+
+    [[textField rac_signalForControlEvents:UIControlEventEditingChanged] subscribeNext:^(id x) {
+        NSLog(@"%@",x);
+    }];
+    
+    //最简方法
+//    [textField.rac_textSignal subscribeNext:^(id x) {
+//        NSLog(@"%@",x);
+//    }];
+    
+//    [[[[[textField.rac_textSignal
+//        distinctUntilChanged]
+//        //这次和上次信号不一样，才会发送,
+//        //注：用于刷新页面，当数据不一样才刷新
+//        delay:1]
+//        //延迟1秒接收到信号
+//        ignore:@"1"]
+//        //忽略“1”的信号发送
+//        filter:^BOOL(NSString* text) {
+//        //过滤事件，只允许长度大于2发信号
+//        //每次信号发出，会先执行过滤条件判断.
+//        return text.length > 2;
+//    }] subscribeNext:^(id x) {
+//        //接收订阅的信号
+//        //Tip: id x -> NSString * text
+//        NSLog(@"当前字符串:%@",x);
+//    }] ;
     
     
     UITextField *textField1 = [UITextField new];
@@ -63,6 +75,11 @@
     }];
     
     // Do any additional setup after loading the view.
+}
+
+- (void)textChanged:(UITextField *)textField
+{
+    NSLog(@"%@",textField);
 }
 
 - (void)didReceiveMemoryWarning {

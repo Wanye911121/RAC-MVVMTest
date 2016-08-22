@@ -35,7 +35,7 @@
         //x是TextField
         NSLog(@"%@",x);
     }];
-    
+
     
     [[[NSNotificationCenter defaultCenter] rac_addObserverForName:UIKeyboardWillShowNotification object:nil] subscribeNext:^(id x) {
         //这里x是NSNotification

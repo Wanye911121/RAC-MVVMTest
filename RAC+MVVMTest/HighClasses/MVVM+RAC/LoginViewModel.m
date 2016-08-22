@@ -69,11 +69,9 @@
             
             // 正在登录ing...
             [PYProgressHUD showMessage:@"登录中"];
-//            [MBProgressHUD showHUDAddedTo:[UIApplication sharedApplication].keyWindow animated:YES];
             
         }else
         {
-            
             // 登录成功
             // 隐藏蒙版
             [PYProgressHUD hideHud];

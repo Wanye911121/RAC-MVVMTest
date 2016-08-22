@@ -54,8 +54,7 @@
         return [requestSignal map:^id(NSDictionary *value) {
             NSMutableArray *dictArr = value[@"books"];
             
-//            return [Book mj_objectArrayWithKeyValuesArray:dictArr];
-//
+
 //            // 字典转模型，遍历字典中的所有元素，全部映射成模型，并且生成数组
             NSArray *modelArr = [[dictArr.rac_sequence map:^id(id value) {
                 

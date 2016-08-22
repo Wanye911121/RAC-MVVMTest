@@ -36,7 +36,10 @@
     // 执行请求
     RACSignal *requesSiganl = [self.listModel.listRequestCommand execute:nil];
     // 获取请求的数据
+    
+    @weakify(self)
     [requesSiganl subscribeNext:^(NSArray *x) {
+        @strongify(self)
         
         self.listModel.models = x;
         
